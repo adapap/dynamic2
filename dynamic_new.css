@@ -1,0 +1,103 @@
+* {
+	font-family: 'Catamaran', sans-serif;
+	font-size: 1.3rem;
+	text-shadow: 1px 1px 5px #888;
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.bb {
+	border: 1px solid black;
+}
+
+.bg {
+	padding: 10px;
+}
+
+.bg-intro {
+	background-image: url("bg/intro.png");
+}
+
+.bg-services {
+	background-image: url("bg/services.png");
+	color: #f5f5f5;
+}
+
+.bg-projects {
+	background-image: url("bg/projects.png");
+	background-size: 100% 100%;
+	width: 100%;
+	height: auto;
+}
+
+.pastproj {
+	background-image: url("bg/projects-title.png");
+	color: #555;
+	text-shadow: 1px 1px 3px #333;
+}
+
+.content {
+	margin-bottom: -20px;
+}
+
+.font-down {
+	font-size: 1.2rem;
+}
+
+.label-round {
+	height: 50px;
+	width: 50px;
+	padding-top: 12px;
+	background-color: white;
+	color: gray;
+	margin: auto;
+	box-shadow: 1px 1px 3px #999;
+}
+
+.image-large {
+	overflow: hidden;
+}
+
+.image-who {
+	margin-top: 15px;
+}
+
+.no-shadow, .projects * {
+	text-shadow: none !important;
+}
+
+#services * {
+	text-shadow: 1px 1px 5px #999;
+}
+
+.serv {
+	margin-top: 15px;
+}
+
+.serv h5 {
+	padding-bottom: 15px !important;
+	margin-bottom: -5px;
+	border-bottom: 1px solid #f5f5f5;
+}
+
+footer h5 {
+	border-bottom: 1px solid white;
+	padding-bottom: 5px !important;
+	text-align: center;
+}
+
+footer i {
+	margin-right: 5px;
+}
+
+section {
+	margin-bottom: -10px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!--Meta Tags-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Materialize Imports-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Icon-->
+    <link rel="icon" href="dynamic_icon.png" type="image/x-icon">
+
+    <!--CSS/JQuery/Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <title>Dynamic Contractors Demo</title>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="dynamic_new.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <!--Scrollspy Initialization-->
+    <script>$(document).ready(function(){$('.scrollspy').scrollSpy({offset: 300});});</script>
+</head>
+
+<body>
+	<div class="content row"> <!--Main Wrapper-->
+	<nav class="green">
+    <div class="nav-wrapper">
+     	<a href="#" class="brand-logo center">Dynamic Contractors Logo</a>
+     	<ul id="nav-mobile" class="left hide-on-med-and-down">
+       		<li><a href="#services">Services</a></li>
+       		<li><a href="#projects">Projects</a></li>
+       		<li><a href="#contact">Contact</a></li>
+     	</ul>
+   	</div>
+	</nav>
+	<section class="image-large"><img src="http://via.placeholder.com/1280x560"></section>
+	<section id="aboutUs"> <!--About Us-->
+		<div class="bg bg-intro col l12">
+			<div class="col l4 white-text">
+				<h3>Who are we?</h3>
+				<p>(Mission statement, core values, basic outline...) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras orci massa, iaculis id ligula id, pretium aliquam libero. Donec dolor risus, pretium ut ante sed, mattis elementum augue. Pellentesque pharetra auctor faucibus.</p>
+				</div>
+			<div class="col l8">
+				<div class="col l12 black-text image-who"><img src="http://via.placeholder.com/800x240"></div>
+				<ul class="collapsible popout col l12" data-collapsible="accordion">
+					<li class="white font-down">
+		      			<div class="no-shadow collapsible-header"><i class="no-shadow material-icons">info</i>Click to learn more</div>
+		      			<div class="collapsible-body"><p class="no-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras orci massa, iaculis id ligula id, pretium aliquam libero. Donec dolor risus, pretium ut ante sed, mattis elementum augue. Pellentesque pharetra auctor faucibus. In sed commodo sapien. Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis. Sed pharetra ut urna ac laoreet. Donec in mi eros.</p></div>
+		    		</li>
+				</ul>
+				</div>
+		</div>
+	</section>
+
+	<section class="scrollspy"> <!--Services-->
+		<div id="services" class="scrollspy bg bg-services col l12">
+			<div class="serv col l4 center-align">
+				<div class="no-shadow label-round circle">A</div><h5 class="col l4 offset-l4">Service A</h5><p class="col l12">(description) Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis.</p>
+			</div>
+			<div class="serv col l4 center-align">
+				<div class="no-shadow label-round circle">B</div><h5 class="col l4 offset-l4">Service B</h5><p class="col l12">(description) Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis.</p>
+			</div>
+			<div class="serv col l4 center-align">
+				<div class="no-shadow label-round circle">C</div><h5 class="col l4 offset-l4">Service C</h5><p class="col l12">(description) Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="projects"> <!--Projects-->
+		<div id="projects" class="scrollspy col l12 center-align pastproj"><h3>Previous Projects</h3></div>
+		<div class="col l12 bg bg-projects center-align">
+		<div class="col l12">
+			<div class="col m5 offset-m1"> <!--Project 1-->
+			    <div class="card">
+			    	<div class="card-image">
+			        	<img src="projects/project1.png">
+			        </div>
+			        <div class="card-content">
+			        	<span class="card-title">NYPA SCPP - BLACK START</span>
+			        	<p>Design-build project - Professional engineering procurement and installation to provide black start capability for NYPA SCPP Hell Gate and Harlem River. Work include installation of (2) 1MW diesel generators with auxiliary equipment ,modification of the LM6000 TCP sequence and  work  at 138kV Con Edison switchyard.</p>
+			        </div>
+			    </div>
+			</div>
+
+			<div class="col m5"> <!--Project 2-->
+			    <div class="card">
+			    	<div class="card-image">
+			        	<img src="projects/project2.png">
+			        </div>
+			        <div class="card-content">
+			        	<span class="card-title">NYPH SOLAR TURBINE</span>
+			        	<p>GMP Contract, Installation of new 7.5 MEGAWATT Solar Turbine together with RENTECH High Pressure Heat Recovery Steam Generator, Duct Burners, Heat Exchangers, integrated control system, High Pressure gas piping system, as well as High Pressure Steam and Condensate Piping systems.</p>
+			        </div>
+			    </div>
+			</div>
+		</div>
+
+		<div class="col l12">
+			<div class="col m5 offset-m1"> <!--Project 3-->
+			    <div class="card">
+			    	<div class="card-image">
+			        	<img src="projects/project3.png">
+			        </div>
+			        <div class="card-content">
+			        	<span class="card-title">ST.JOHN UNIVERSITY</span>
+			        	<p>Installation of new Con Edison 27kV feeder, 27 to 5kV Transformer, 27 kV and 5 kV Substation Switchgear, campus wide distribution of 5 kV feeders, including excavation and new Manholes throughout the campus. 
+Installed Pad mounted Transformers with associated electrical equipment. Coordination with Con Edison and SJU of switching over services to various buildings. Installation of two 800 kW & 250kW Emergency Generators for life safety and essential services.
+Installed integrated control system,</p>
+			        </div>
+			    </div>
+			</div>
+
+			<div class="col m5"> <!--Project 4-->
+			    <div class="card">
+			    	<div class="card-image">
+			        	<img src="projects/project4.png">
+			        </div>
+			        <div class="card-content">
+			        	<span class="card-title">NYPA BRONX ZOO</span>
+			        	<p>Installed a 200 kW fuel cell generator in the basement of the Madagascar building at the Bronx Zoo. The fuel cell operates in parallel with an existing Bronx Zoo co-generation facility as well as the Con Edison power grid to reduce the facility’s electric requirements by 200 kW while also generating heat.</p>
+			        </div>
+			    </div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	</div> <!--End Content-->
+	<footer id="contact" class="page-footer green lighten-1 scrollspy"> <!--Contact and more-->
+    	<div class="container">
+            <div class="row">
+            	<div class="col l6 s12">
+            		<h5 class="white-text">Supplemental Information</h5>
+                	<p class="grey-text text-lighten-4">Business inquiries, legal limitations, areas of coverage, specific conditions, motives, future expectations, favorite colors...</p>
+              	</div>
+            <div class="col l4 offset-l2 s12">
+            	<h5 class="white-text">Contact Us</h5>
+                <ul>
+                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">mail</i>Email: abc123@website.com</li>
+                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">phone</i>Phone: (123)-456-7890</li>
+                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">home</i>Address: 111 Valley Road</li>
+                </ul>
+            	</div>
+        	</div>
+    	</div>
+        <div class="footer-copyright">
+			<div class="container">
+            © 2017 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">i like waffles</a>
+			</div>
+        </div>
+    </footer>
+</body>
+</html>

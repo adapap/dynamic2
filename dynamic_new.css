@@ -33,7 +33,7 @@ section {
 }
 
 .bb {
-	border: 1px solid black;
+	border: 3px solid black;
 }
 
 .bg {
@@ -45,7 +45,6 @@ section {
 }
 
 .bg-projtitle {
-	background: #5aa85c;
 	width: 100%;
 	color: #F5F5F5;
 }
@@ -55,6 +54,20 @@ section {
 	background-size: 100% 100%;
 	width: 100%;
 	height: auto;
+}
+
+.btn-proj {
+	text-transform: capitalize;
+}
+
+.carousel p {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-slider {
+    height: 320px !important;
 }
 
 #contact * {
@@ -104,8 +117,17 @@ section {
 	font-size: 20px;
 }
 
-.no-shadow, .projects * {
+.no-shadow {
 	text-shadow: none !important;
+}
+
+#pictures {
+	margin-bottom: -75px;
+}
+
+#pictureCarousel {
+	top: -50px;
+	height: 400px;
 }
 
 #projects h3 {

@@ -25,7 +25,9 @@
     <link rel="stylesheet" href="dynamic_new.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <!--Scrollspy Initialization-->
-    <script>$(document).ready(function(){$('.scrollspy').scrollSpy({offset: 300});});</script>
+    <script>$(document).ready(function(){
+		$('.scrollspy').scrollSpy({offset: 300});
+		})</script>
 </head>
 
 <body>
@@ -108,12 +110,68 @@ Geothermal or Ground-source heat pumps (GSHP) is the name for a broad category o
 			</div>
 		</div>
 	</section>
+	<script>$(function(){
+		$('.carousel.carousel-slider').carousel({full_width: true});
+		$('.scrollspy').scrollSpy({offset: 300});
+		})</script>
+	<script>$(function(){
+		$('#proj1').click(function() {
+			$("#pictureCarousel").removeClass("initialized")
+	      	$('#pictureCarousel').html('<a class="carousel-item"><img src="https://lorempixel.com/250/250/nature/1"></a><a class="carousel-item"><img src="https://lorempixel.com/250/250/nature/2"></a><a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a><a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a><a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>')
+	      	$('.carousel').carousel();
+	    });
 
-	<section class="projects"> <!--Projects-->
+	    $('#proj2').click(function() {
+			$("#pictureCarousel").removeClass("initialized")
+	      	$('#pictureCarousel').html('<a class="carousel-item"><img src="https://lorempixel.com/250/250/nature/2"></a><a class="carousel-item"><img src="https://lorempixel.com/250/250/nature/1"></a><a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a><a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a><a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>')
+	      	$('.carousel').carousel();
+	    });
+      })</script>
+	<section class="projects"> <!--Projects New-->
+		<div class="scrollspy col l12 center-align light-blue accent-4 bg-projtitle"><h3>Our Projects</h3></div>
+		<div class="light-blue col l12 center-align">
+			<div class="col l8 offset-l2">
+			<div class="carousel carousel-slider center" data-indicators="true">
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#one!">
+			      <h2>Riker’s Island – Central Chiller Plant</h2>
+			      <p class="white-text col-l6 offset-l3">The Riker's Island Chiller plant featured the installment of two new 1,000 ton chillers: a steam absorption unit and magnetic-bearing high efficiency unit, two 1.25mW emergency generators using each using a new 5kV switchgear, and a new 750kW steam turbine generator.</p>
+			      <button id="proj1" class="btn btn-proj blue white-text">Pictures</button>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#two!">
+			      <h2>Metropolitan Hospital – Central Boiler Plant Upgrade</h2>
+			      <ul class="white-text">
+			      	<li>-Three 35,000 #/hr High Pressure Boilers</li>
+			      	<li>-New 80,000 gallon Fuel Farm</li>
+			      	<li>-New High Pressure Gas Service to replace #6 Fuel Oil</li>
+			      </ul>
+			      <button id="proj2" class="btn btn-proj blue white-text">Pictures</button>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#three!">
+			      <h2>New York City Housing Authority – Hot Water Heater Replacement</h2>
+			      <p class="white-text">This is your third panel</p>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#four!">
+			      <h2>Owls Head Water Pollution Plant – Multiple Projects</h2>
+			      <p class="white-text">This is your fourth panel</p>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#four!">
+			      <h2>Charleston Bus Depot –  New Facility Construction</h2>
+			      <p class="white-text">This is your fourth panel</p>
+			    </div>
+  			</div>
+  			</div>
+  		</div>
+    	<div id="pictures">
+			<div id="pictureCarousel" class="carousel">
+			    
+		  	</div>
+		  </div>
+	</section>
+	<!--<section class="projects">
 		<div id="projects" class="scrollspy col l12 center-align bg-projtitle"><h3>Previous Projects</h3></div>
 		<div class="col l12 bg bg-projects center-align">
 		<div class="col l12" style="padding-top: 25px">
-			<div class="col m5 offset-m1"> <!--Project 1-->
+			<div class="col m5 offset-m1">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project1.png">
@@ -125,7 +183,7 @@ Geothermal or Ground-source heat pumps (GSHP) is the name for a broad category o
 			    </div>
 			</div>
 
-			<div class="col m5"> <!--Project 2-->
+			<div class="col m5">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project2.png">
@@ -139,7 +197,7 @@ Geothermal or Ground-source heat pumps (GSHP) is the name for a broad category o
 		</div>
 
 		<div class="col l12">
-			<div class="col m5 offset-m1"> <!--Project 3-->
+			<div class="col m5 offset-m1">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project3.png">
@@ -153,7 +211,7 @@ Installed integrated control system,</p>
 			    </div>
 			</div>
 
-			<div class="col m5"> <!--Project 4-->
+			<div class="col m5">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project4.png">
@@ -166,7 +224,7 @@ Installed integrated control system,</p>
 			</div>
 		</div>
 		</div>
-	</section>
+	</section>-->
 
 	</div> <!--End Content-->
 	<footer id="contact" class="page-footer green lighten-1 scrollspy"> <!--Contact and more-->

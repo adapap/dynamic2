@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 
@@ -19,20 +19,22 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-    <title>Dynamic Contractors Demo</title>
+    <title>Dynamic Energy Inc.</title>
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="dynamic_new.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <!--Scrollspy Initialization-->
-    <script>$(document).ready(function(){$('.scrollspy').scrollSpy({offset: 300});});</script>
+    <script>$(document).ready(function(){
+		$('.scrollspy').scrollSpy({offset: 300});
+		})</script>
 </head>
 
 <body>
 	<div class="content row"> <!--Main Wrapper-->
-	<nav class="green">
+	<nav class="green darken-1">
     <div class="nav-wrapper">
-     	<a href="#" class="brand-logo center">Dynamic Contractors Logo</a>
+     	<a href="#" class="brand-logo center">Dynamic Energy Inc.</a>
      	<ul id="nav-mobile" class="left hide-on-med-and-down">
        		<li><a href="#services">Services</a></li>
        		<li><a href="#projects">Projects</a></li>
@@ -40,44 +42,172 @@
      	</ul>
    	</div>
 	</nav>
-	<section class="image-large"><img src="http://via.placeholder.com/1280x560"></section>
-	<section id="aboutUs"> <!--About Us-->
+	<section class="image-large center-align"><!--<img src="http://via.placeholder.com/1280x560">--></section>
+	<section id="about-us"> <!--About Us-->
 		<div class="bg bg-intro col l12">
-			<div class="col l4 white-text">
+			<div class="col l6 white-text">
 				<h3>Who are we?</h3>
-				<p>(Mission statement, core values, basic outline...) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras orci massa, iaculis id ligula id, pretium aliquam libero. Donec dolor risus, pretium ut ante sed, mattis elementum augue. Pellentesque pharetra auctor faucibus.</p>
+				<p>Dynamic Energy Group, Inc. (DEG) is an energy conservation company with MEP construction and design-build capabilities that in coordination with building and facility owner/developer can design, engineer and install high efficiency technologies intended to reduce energy costs or increase the efficiency of the existing infrastructure. DEG implements green, clean and sustainably designed projects that are technology-neutral and vendor-neutral.</p><p>
+ 
+DEG provides equipment and facility analyses, assessments, and strategy recommendations based on a client’s individual needs, arranges financing, obtains incentives and grants, designs and installs energy solutions.</p>
 				</div>
-			<div class="col l8">
-				<div class="col l12 black-text image-who"><img src="http://via.placeholder.com/800x240"></div>
-				<ul class="collapsible popout col l12" data-collapsible="accordion">
+			<div class="col l6 image-who">
+				<img src="http://via.placeholder.com/800x240">
+			</div>
+			<div class="col l12"> <!--More Info-->
+				<ul class="collapsible popout col l8 offset-l2" data-collapsible="accordion">
 					<li class="white font-down">
 		      			<div class="no-shadow collapsible-header"><i class="no-shadow material-icons">info</i>Click to learn more</div>
-		      			<div class="collapsible-body"><p class="no-shadow">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras orci massa, iaculis id ligula id, pretium aliquam libero. Donec dolor risus, pretium ut ante sed, mattis elementum augue. Pellentesque pharetra auctor faucibus. In sed commodo sapien. Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis. Sed pharetra ut urna ac laoreet. Donec in mi eros.</p></div>
+		      			<div class="learnmore-p collapsible-body"><p class="no-shadow">Our fundamentally different approach is to deliver: Design, Develop, Arrange Financing, Install and Maintain clean low cost CoGeneration Systems that exceed expectations, which are supplied with little or no upfront costs.
+ 
+Our vision, expertise, methodology, employees, and partners contribute to making Dynamic Energy Group a leading CoGen energy service provider.</p><p class="no-shadow">
+ 
+Dynamic Energy Group, Inc. is a thriving new company that is leading the way to new energy alternatives. We are working with leading real estate developers and investors, Fortune 500 companies, and state & local governments to create an alternative vision of energy, one built around on-site power generation (CHP) and energy efficiency projects.</p><p class="no-shadow">
+ 
+Real estate varies in size, configuration, type, usage, and location but none are more important than yours.  DEG begins with you, your needs and ability to establish and own a successful energy project. We then move to an onsite investigation, systems analysis and concept design for existing buildings. Our bottom-line oriented approach lets us recommend and propose energy projects that are customized for you and your building/facility. If you can’t afford it we won’t recommend it.</p><p class="no-shadow">
+ 
+DEG helps owner/developers obtain all available incentives and subsidies from all levels of government and from private foundations. We can provide multiple routes to financing for energy infrastructure including independent project financing for all CHP and renewable energy related equipment and installation.  For on-site power and for high-performance building efficiencies technologies, we are firmly vendor-neutral, offering our clients advice on the best combination of equipment and design features with the highest return on investment. For larger projects, we can take the lead in establishing an energy investment master plan.</p><p class="no-shadow" style="padding-bottom: 10px">
+ 
+DEG has the flexibility to offer clients the best in both design and construction.</p></div>
 		    		</li>
 				</ul>
-				</div>
+			</div>
 		</div>
 	</section>
 
 	<section class="scrollspy"> <!--Services-->
-		<div id="services" class="scrollspy bg bg-services col l12">
+		<div id="services" class="scrollspy bg light-green darken-1 serv-text col l12">
 			<div class="serv col l4 center-align">
-				<div class="no-shadow label-round circle">A</div><h5 class="col l4 offset-l4">Service A</h5><p class="col l12">(description) Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis.</p>
+				<div class="no-shadow label-round circle"><i class="material-icons no-shadow green-text">check</i></div><h5 class="col l6 offset-l3">Quality &amp; Safety</h5><p class="col l12 left-align">DEG believes that incident and injury free construction is obtainable. As a company, DEG embraces a culture that empowers our employees to take whatever action is necessary to ensure a safe work environment. 
+ 
+DEG has programs and procedures that cover every aspect of safety on a construction project. Our safety plan focuses on personal behaviors and making intelligent choices. It includes ergonomic programs that teach us to use the right tools and subcontractor plans so we can include everyone in our pre-task safe work planning.
+DEG’s Consulting Safety/Compliance Manager has an excellent working knowledge of OSHA construction standards, as well as extensive experience conducting job site inspections.
+The safety of all participants in each project is our top priority. GED knows that our excellent safety record is the result of employee involvement. Through extensive employee safety training and by motivating our employees, accidents are minimized or completely avoided. All DEG’s foremen perform a weekly Safety Checklist Inspection and a detailed site inspection to ensure that all the safety requirements are being met. Our Safety Manager routinely performs pop inspections at all job sites.</p>
 			</div>
 			<div class="serv col l4 center-align">
-				<div class="no-shadow label-round circle">B</div><h5 class="col l4 offset-l4">Service B</h5><p class="col l12">(description) Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis.</p>
+				<div class="no-shadow label-round circle"><i class="material-icons no-shadow green-text">call_merge</i></div><h5 class="col l6 offset-l3">CoGeneration</h5><p class="col l12 left-align">DEG offers affordable and dependable CoGeneration (CHP) systems along with conservation measure to increase your facilities bottom-line. 
+ 
+CoGeneration also known as Combined Heat and Power (CHP), is the production of two kinds of energy –electricity and heat – from a single source of fuel.  CHP replaces the traditional purchasing of electricity from the local electric utility and separately purchasing natural gas or other fossil fuels to burn in a boiler to produce heat. 
+ 
+Combined Cooling Heating and Power (CCHP) takes this concept one-step further.  The useful heat recovered from the CCHP application can be used to supply space and process heating and cooling needs.  This is commonly referred to as CCHP or Tri-Generation.  The recovered heat is utilized by an absorption cycle refrigeration machine, the resulting chilled water is sent to process or space cooling circuits.  Heat not utilized in the absorber can be sent to the heating circuit where it is further used for domestic, process or space-heating as needed.
+ 
+DEG manages every phase of the CHP/CCHP process - from analysis to project design to financing and through to development/construction and installation.</p>
 			</div>
 			<div class="serv col l4 center-align">
-				<div class="no-shadow label-round circle">C</div><h5 class="col l4 offset-l4">Service C</h5><p class="col l12">(description) Integer blandit, neque sit amet sollicitudin lobortis, odio magna auctor quam, et dictum nunc augue et quam. Ut sodales accumsan nunc, sed pellentesque turpis consectetur quis.</p>
+				<div class="no-shadow label-round circle"><i class="material-icons no-shadow green-text">autorenew</i></div><h5 class="col l6 offset-l3">Renewable Energy</h5><p class="col l12 left-align">Renewable energy is used to describe sources of energy or power that have the capacity to replenish themselves. Renewable energy is sometimes called infinite energy, because it relies on never ending energy sources. Renewable energy is also considered clean or green energy, because it does not produce toxins or pollutants that are harmful to the environment in the same manner that non-renewable energy does. The world is converting to renewable-clean energy sources to provide power for facilities, which lowers their costs and lets them function in a more environment friendly way. Buildings and facilities most commonly use Solar, Wind and Geothermal as renewable energy.
+ 
+Wind power is the most common form of renewable energy, by 2012 more than 5% of US electricity production will be from wind.  Wind electricity is created when the wind energy turns blades connected to a turbine (a shaft & gears) which powers an electric generator. Wind power has a potentially infinite energy supply and a number of advantages to its use.
+Wind is free and in infinite supply making an affordable energy source.
+Wind electricity does not produce any pollutants or green house gases.
+ 
+Solar power is another renewable energy source, where the energy from the sun is directly harnessed in order to produce either heat (Thermal) or electricity (PV) energy. Sunlight is in limitless supply so long as it is shining, and is an excellent renewable energy source. Some areas of the world cannot rely on solar power because their weather and climate are not conducive to its use if long periods of cloudiness are present. Overall however, solar power is an endlessly free, clean energy source that does not pollute the environment or contribute to global warming.
+ 
+Solar Thermal captures the heat from sunlight and transfers it to a conducting material usually a fluid that in turn transfers the heat to storage or a directly into buildings mechanical systems where heat is needed.
+ 
+Solar PV-(Photovoltaics) turns photons from Sunlight directly into DC electricity and usually collected in panels that can be mounted individually or stung together by the thousands.
+ 
+Geothermal or Ground-source heat pumps (GSHP) is the name for a broad category of space conditioning systems that employ a geothermal resource – the ground, groundwater, or surface water – as both a heat source and sink. GSHPs use a reversible refrigeration cycle to provide either heating or cooling to storage or a directly into buildings mechanical systems where heat is needed.</p>
 			</div>
 		</div>
 	</section>
+	<script>$(function(){
+		$('.carousel.carousel-slider').carousel({full_width: true});
+		$('.scrollspy').scrollSpy({offset: 300});
+		})</script>
+	<script>$(function(){
+		$('#proj1').click(function() {
+			$("#pictureCarousel").removeClass("initialized");
+	      	$('#pictureCarousel').html("<a class='carousel-item'><img src='p1/a.jpg'></a><a class='carousel-item'><img src='p1/b.jpg'></a><a class='carousel-item'><img src='p1/c.jpg'></a><a class='carousel-item'><img src='p1/d.jpg'></a><a class='carousel-item'><img src='p1/e.jpg'></a><a class='carousel-item'><img src='p1/f.jpg'></a><a class='carousel-item'><img src='p1/g.jpg'></a><a class='carousel-item'><img src='p1/h.jpg'></a>")
+	      	$('.carousel').carousel();
+		});
 
-	<section class="projects"> <!--Projects-->
-		<div id="projects" class="scrollspy col l12 center-align pastproj"><h3>Previous Projects</h3></div>
+	    $('#proj2').click(function() {
+			$("#pictureCarousel").removeClass("initialized")
+	      	$('#pictureCarousel').html("<a class='carousel-item'><img src='p2/a.jpg'></a><a class='carousel-item'><img src='p2/b.jpg'></a><a class='carousel-item'><img src='p2/c.jpg'></a><a class='carousel-item'><img src='p2/d.jpg'></a><a class='carousel-item'><img src='p2/e.jpg'></a>")
+	      	$('.carousel').carousel();
+		});
+
+		$('#proj3').click(function() {
+			$("#pictureCarousel").removeClass("initialized")
+	      	$('#pictureCarousel').html("<a class='carousel-item'><img src='p3/a.jpg'></a><a class='carousel-item'><img src='p3/b.jpg'></a>")
+	      	$('.carousel').carousel();
+		});
+
+		$('#proj4').click(function() {
+			$("#pictureCarousel").removeClass("initialized")
+	      	$('#pictureCarousel').html("<a class='carousel-item'><img src='p4/a.jpg'></a>")
+	      	$('.carousel').carousel();
+		});
+
+		$('#proj5').click(function() {
+			$("#pictureCarousel").removeClass("initialized")
+	      	$('#pictureCarousel').html("<a class='carousel-item'><img src='p5/a.jpg'></a><a class='carousel-item'><img src='p5/b.jpg'></a><a class='carousel-item'><img src='p5/c.jpg'></a><a class='carousel-item'><img src='p5/d.jpg'></a><a class='carousel-item'><img src='p5/e.jpg'></a><a class='carousel-item'><img src='p5/f.jpg'></a><a class='carousel-item'><img src='p5/g.jpg'></a><a class='carousel-item'><img src='p5/h.jpg'></a>")
+	      	$('.carousel').carousel();
+		});
+      })</script>
+	<section class="projects"> <!--Projects New-->
+		<div class="scrollspy col l12 center-align light-blue accent-4 bg-projtitle"><h3>Our Projects</h3></div>
+		<div class="light-blue col l12 center-align">
+			<div class="col l8 offset-l2">
+			<div class="carousel carousel-slider center" data-indicators="true">
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#one!">
+			      <h2><b>Riker’s Island – Central Chiller Plant</b></h2>
+			      <ul class="white-text">
+			      	<li class="light-blue lighten-3">Two new 1,000 ton Chillers: a Steam Absorption unit and a Magnetic-bearing High Efficiency unit</li>
+			      	<li class="light-blue lighten-2">Two 1.25 mW Emergency Generators with new 5kV Switchgear</li>
+			      	<li class="light-blue lighten-3">New  750 kW Steam Turbine Generator</li>
+			      </ul>
+			      <button id="proj1" class="btn btn-proj blue white-text">Pictures</button>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#two!">
+			      <h2><b>Metropolitan Hospital – Central Boiler Plant Upgrade</b></h2>
+			      <ul class="white-text">
+			      	<li>Three 35,000 #/hr High Pressure Boilers</li>
+			      	<li>New 80,000 gallon Fuel Farm</li>
+			      	<li>New High Pressure Gas Service to replace #6 Fuel Oil</li>
+			      </ul>
+			      <button id="proj2" class="btn btn-proj blue white-text">Pictures</button>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#three!">
+			      <h2><b>New York City Housing Authority – Hot Water Heater Replacement</b></h2>
+			      <ul class="white-text">
+			      	<li>Replacement of Hot Water Heaters in 250 buildings</li>
+			      	<li>New Instantaneous Type HW Heaters eliminate storage and standby losses</li>
+			      </ul>
+			      <button id="proj3" class="btn btn-proj blue white-text">Pictures</button>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#four!">
+			      <h2><b>Owls Head Water Pollution Plant – Multiple Projects</b></h2>
+			      <ul class="white-text">
+			      	<li>Replacement of over 28,000 diffusers in aeration tanks</li>
+			      	<li>Replacement of Digester Gas System including new Stainless Steel piping,<br>Liquid-Ring Compressors, Gas Dryers and Natural Gas Blenders</li>
+			      	<li>Mechanical, Electrical and Plumbing work for the upgrade of the existing 3 mW Engine Generators</li>
+			      </ul>
+			      <button id="proj4" class="btn btn-proj blue white-text">Pictures</button>
+			    </div>
+			    <div class="carousel-item light-blue lighten-2 white-text" href="#four!">
+			      <h2><b>Charleston Bus Depot –  New Facility Construction</b></h2>
+			      <ul class="white-text">
+			      	<li>Mechanical Work including Boiler Plant, Multiple UG Tanks, Heating and Ventilating  Equipment and Ductwork, Sprinklers, Bus Service Stations</li>
+			      	<li>Electrical Work including new Service, Low and High Voltage wiring, Security, Building Controls System</li>
+			      	<li>Plumbing Work including Water and Gas Service, Drainage System, Bathrooms and Showers</li>
+			      </ul>
+			      <button id="proj5" class="btn btn-proj blue white-text">Pictures</button>
+			    </div>
+  			</div>
+  			</div>
+  		</div>
+    	<div id="pictures">
+			<div id="pictureCarousel" class="carousel grey lighten-2">
+			    
+		  	</div>
+		  </div>
+	</section>
+	<!--<section class="projects">
+		<div id="projects" class="scrollspy col l12 center-align bg-projtitle"><h3>Previous Projects</h3></div>
 		<div class="col l12 bg bg-projects center-align">
-		<div class="col l12">
-			<div class="col m5 offset-m1"> <!--Project 1-->
+		<div class="col l12" style="padding-top: 25px">
+			<div class="col m5 offset-m1">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project1.png">
@@ -89,7 +219,7 @@
 			    </div>
 			</div>
 
-			<div class="col m5"> <!--Project 2-->
+			<div class="col m5">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project2.png">
@@ -103,7 +233,7 @@
 		</div>
 
 		<div class="col l12">
-			<div class="col m5 offset-m1"> <!--Project 3-->
+			<div class="col m5 offset-m1">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project3.png">
@@ -117,7 +247,7 @@ Installed integrated control system,</p>
 			    </div>
 			</div>
 
-			<div class="col m5"> <!--Project 4-->
+			<div class="col m5">
 			    <div class="card">
 			    	<div class="card-image">
 			        	<img src="projects/project4.png">
@@ -130,7 +260,7 @@ Installed integrated control system,</p>
 			</div>
 		</div>
 		</div>
-	</section>
+	</section>-->
 
 	</div> <!--End Content-->
 	<footer id="contact" class="page-footer green lighten-1 scrollspy"> <!--Contact and more-->
@@ -143,9 +273,9 @@ Installed integrated control system,</p>
             <div class="col l4 offset-l2 s12">
             	<h5 class="white-text">Contact Us</h5>
                 <ul>
-                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">mail</i>Email: abc123@website.com</li>
-                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">phone</i>Phone: (123)-456-7890</li>
-                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">home</i>Address: 111 Valley Road</li>
+                	<li class="grey-text text-lighten-3 vlaign-wrapper"><i class="material-icons white-text">mail</i><span>Email: abc123@website.com</span></li>
+                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">phone</i><span>Phone: (123)-456-7890</span></li>
+                	<li class="grey-text text-lighten-3"><i class="material-icons white-text">home</i><span>Address: 111 Valley Road</span></li>
                 </ul>
             	</div>
         	</div>
@@ -153,7 +283,7 @@ Installed integrated control system,</p>
         <div class="footer-copyright">
 			<div class="container">
             © 2017 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">i like waffles</a>
+            <a class="grey-text text-lighten-4 right" href="#!">A message</a>
 			</div>
         </div>
     </footer>

@@ -60,10 +60,6 @@ section {
 	text-transform: capitalize;
 }
 
-.carousel {
-	min-height: 800px;
-}
-
 .carousel p {
 	width: 70%;
 	margin-left: auto;
@@ -130,8 +126,21 @@ section {
 }
 
 #pictureCarousel {
-	top: -50px;
-	height: 400px;
+	top: 0px;
+	margin-bottom: 75px;
+	min-height: 600px;
+	width: 100%;7:13 PM 8/22/2017
+}
+
+#pictureCarousel a {
+	margin-top: 250px;
+	height: auto;
+	width: 80%;
+}
+
+#pictureCarousel img {
+	height: auto;
+	width: auto;
 }
 
 #projects h3 {
@@ -161,6 +170,8 @@ section {
 
 /*Mobile Browsers*/
 
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 1200px) {
+	.projects {
+		display: none !important;
+	}
 }

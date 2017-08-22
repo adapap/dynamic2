@@ -60,6 +60,10 @@ section {
 	text-transform: capitalize;
 }
 
+.carousel {
+	min-height: 800px;
+}
+
 .carousel p {
 	width: 70%;
 	margin-left: auto;

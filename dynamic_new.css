@@ -15,6 +15,12 @@ footer h5 {
 	text-align: center;
 }
 
+.rotate_img {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari 3-8 */
+    transform: rotate(90deg);
+}
+
 footer i {
 	margin-right: 5px;
 }
@@ -109,9 +115,9 @@ h2 b {
 }
 
 .logo {
-	margin-left: 35%;
+	margin-left: 15%;
 	margin-top: 10%;
-	width: 200px;
+	width: 350px;
 	height: auto;
 }
 
